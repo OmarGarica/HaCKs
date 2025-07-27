@@ -29,12 +29,12 @@ while True:
     # Read dht sensor loop
     d.measure()
     temperature_c = d.temperature()
-    temp = temperature_c * 9/5 + 32  # Convert to Fahrenheit
-    humidity = d.humidity()
+    temp = temperature_c * 9/5 + 32 -8  # Convert to Fahrenheit
+    humidity = d.humidity() + 30
    
     # Read photoresistor loop
     ldr_value = ldr.read_u16()  # Read the LDR value
-    lumens = (19/1224000) * ldr_value  -(361/6120) # Convert to lumens (example conversion factor)
+    lumens = (10/1224000) * ldr_value + (.45) # Convert to lumens (example conversion factor)
 
     # Print outputs
     if humidity is not None and temperature_c is not None:
