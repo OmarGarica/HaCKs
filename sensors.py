@@ -34,7 +34,7 @@ while True:
    
     # Read photoresistor loop
     ldr_value = ldr.read_u16()  # Read the LDR value
-    lumens = (10/1224000) * ldr_value + (.45) # Convert to lumens (example conversion factor)
+    lumens = (10/1224000) * ldr_value + (.45) # Convert to lumens
 
     # Print outputs
     if humidity is not None and temperature_c is not None:

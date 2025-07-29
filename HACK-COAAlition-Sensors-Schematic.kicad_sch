@@ -21332,6 +21332,28 @@
 		)
 		(uuid "f29e8049-778b-4258-9b30-2535a7585a99")
 	)
+	(global_label "GPIO 14"
+		(shape input)
+		(at 130.81 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07ea30e4-862a-4f08-b1f0-294c03a7eb58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9629 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO 26"
 		(shape input)
 		(at 208.28 80.01 180)
@@ -21350,6 +21372,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 26"
+		(shape input)
+		(at 168.91 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "237960ac-118c-457e-a4be-35bc94965edc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.7571 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -21389,6 +21433,50 @@
 		(uuid "46f8c5f8-120c-43f4-9302-9148cdf8e38e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.0364 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 27"
+		(shape input)
+		(at 168.91 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ba156c5-608a-434a-bad0-f654b9a36a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.7571 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 15"
+		(shape input)
+		(at 130.81 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80714866-20e4-4aca-99c0-e3fd69865568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9629 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25008,7 +25096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PHOTORESISTOR"
+		(property "Value" "Photoresistor 500k ohms"
 			(at 141.478 70.612 90)
 			(effects
 				(font
